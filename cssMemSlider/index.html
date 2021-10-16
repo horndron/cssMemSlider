@@ -10,28 +10,71 @@
 <body>
   <section class="block-slider">
     <div class="container">
-      <div class="slider">
+
+      <input checked type=radio name="slider" id="slide1" />
+	    <input type=radio name="slider" id="slide2" />
+	    <input type=radio name="slider" id="slide3" />
+	    <input type=radio name="slider" id="slide4" />
+	    <input type=radio name="slider" id="slide5" />
+
+      <div class="slider slider-image">
         <div class="slider-list">
           <div class="slide slide-1">
-            <div class="img"></div>
+            <div class="img">
+              <img src="image/1.jpg" alt="">
+            </div>
           </div>
           <div class="slide slide-2">
-            <div class="img"></div>
+            <div class="img">
+              <img src="image/2.jpg" alt="">
+            </div>
           </div>
           <div class="slide slide-3">
-            <div class="img"></div>
+            <div class="img">
+              <img src="image/3.jpg" alt="">
+            </div>
           </div>
           <div class="slide slide-4">
-            <div class="img"></div>
+            <div class="img">
+              <img src="image/4.jpg" alt="">
+            </div>
           </div>
           <div class="slide slide-5">
-            <div class="img"></div>
-          </div>
-          <div class="slide slide-6">
-            <div class="img"></div>
+            <div class="img">
+              <img src="image/5.jpg" alt="">
+            </div>
           </div>
         </div>
       </div>
+
+      <div class="slider slider-text">
+        <div class="slider-list">
+          <div class="slide slide-1">
+            <p>When completed the RS Schooll course</p>
+          </div>
+          <div class="slide slide-2">
+            <p>Wake up! We dropped everything...</p>
+          </div>
+          <div class="slide slide-3">
+            <p>Deadline is coming...</p>
+          </div>
+          <div class="slide slide-4">
+            <p>When to make a slider in CSS</p>
+          </div>
+          <div class="slide slide-5">
+            <p>Dad gave me a taste of self-made alcohol</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-dots">
+        <label for=slide1><span></span></label>
+	      <label for=slide2><span></span></label>
+	      <label for=slide3><span></span></label>
+	      <label for=slide4><span></span></label>
+	      <label for=slide5><span></span></label>
+      </div>
+
     </div>
   </section>
 </body>
